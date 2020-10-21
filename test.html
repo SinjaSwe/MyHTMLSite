@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang "en">
+<html>
+    <title>CSS Grids</title>
+    <style>
+        .wrapper{
+            display:grid;
+            grid-template-columns: 70% 30%;
+            grid-gap: 1em;
+            
+        }
+
+        .wrapper > div{
+            background: #eee;
+            padding: 1em;            
+        }
+
+        .wrapper >div:nth-child(odd){
+            background: #dddddd;
+        }
+    </style>
+<body>
+    <div class="wrapper">
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident numquam omnis quis, facilis ea expedita? Corrupti, deserunt obcaecati ea nulla quibusdam reprehenderit porro, eaque sint quidem nemo excepturi non odio.
+
+        </div>
+        <div>
+            lorem 30  Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident numquam omnis quis, facilis ea expedita? Corrupti, deserunt obcaecati ea nulla quibusdam reprehenderit porro, eaque sint quidem nemo excepturi non odio.
+            tetur adipisicing elit. Provident numquam omnis quis, facilis ea expedita? Corrupti, deserunt obcaecati ea nulla quibusdam reprehenderit porro, eaque sint quidem nemo
+
+        </div>
+
+        <div>
+            Test one doe sns haq 
+        </div>
+        <div>
+            Test one doe sns haq 
+        </div>
+
+    </div>
+</body>
