@@ -108,7 +108,7 @@ ul li{
     padding: 5px;
 }
 
-.heading
+.headline
 {
   text-align: left;
 }
@@ -130,6 +130,8 @@ ul li{
   }  
 
   .myform-container {
+    padding-left: 10px;
+    padding-right: 10px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr ;
@@ -137,6 +139,7 @@ ul li{
     grid-template-areas:
       "Login . . "
       "myform myform myform "
+    
       
   }
   .LoginHeader { 
@@ -148,20 +151,49 @@ ul li{
 
   .myform { 
     grid-area: myform; 
-    border-radius: 25px;
+    border-radius: 10px;
     background: lightgray;
     padding: 5%
+    font-weight: normal
+  }
+
+  .reset {
+    background-color: #f44336;
+    color: white;
+    padding: 10px 10px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    border-radius: 70%;
+  
+  }
+
+  .submit {
+    background-color: #00994C;
+    color: white;
+    padding: 10px 10px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    border-radius: 70%;
+    color: black;
+    
+  }
+  
+  button:hover {
+    opacity: 0.8;
   }
 
   .reset {
     border-radius: 70%;
   }
 
-  .submit{
-    color: black;
-    background-color: green;
-  }
   
+  footer{
+    background-color: white;
+    padding-bottom: 0px;
+    text-align: center;
+  }
 
     
     
